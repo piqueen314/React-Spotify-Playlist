@@ -1,7 +1,8 @@
 let accessToken;
+const { API_TOKEN, REDIRECT_URL } = process.env
 
-const clientId = '';
-const redirectURI = "http://localhost:3000"
+const clientId = API_TOKEN;
+const redirectURI = REDIRECT_URL;
 // const redirectURI = "http://cece.surge.sh"
   
 const Spotify = {
