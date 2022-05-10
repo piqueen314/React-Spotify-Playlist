@@ -1,8 +1,8 @@
 let accessToken;
-const { API_TOKEN, REDIRECT_URL } = process.env
 
-const clientId = API_TOKEN;
-const redirectURI = REDIRECT_URL;
+
+const clientId = '45e7cca3f2e94913af787d7ab425158e';
+const redirectURI = 'https://react-spotify-playlist.netlify.app';
 // const redirectURI = "http://cece.surge.sh"
   
 const Spotify = {
